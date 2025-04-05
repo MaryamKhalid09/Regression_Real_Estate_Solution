@@ -21,7 +21,7 @@ def train_model(model, X_train, X_test, y_train, y_test):
 
 # Streamlit UI
 st.set_page_config(page_title="Real Estate Price Predictor", layout="centered")
-st.title("🏠 Real Estate Price Prediction Dashboard")
+st.title("Real Estate Price Prediction Dashboard")
 
 df = load_data()
 st.subheader("Dataset Preview")
